@@ -1,0 +1,136 @@
+/* Write your CSS here */
+.money-manager {
+  height: 100vh;
+  padding: 2em;
+}
+
+.top-section-card {
+  padding: 2em 1em 1em 1em;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 260px;
+  background-size: cover;
+  margin-bottom: 2em;
+}
+.wishing-user {
+  font-size: 2em;
+  color: #475569;
+}
+.welcome-back-text {
+  font-size: 1.3em;
+}
+.welcome-back-text span {
+  color: #0b69ff;
+}
+.top-section-card div {
+  margin-top: 4em;
+  margin-left: 1.4em;
+}
+@media screen and (max-width: 761px) {
+  .top-section-card {
+    text-align: center;
+  }
+}
+.amount-details-card {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+.transactions-section {
+  width: 90%;
+  margin: auto;
+}
+.add-transaction-heading {
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+}
+.add-transaction-section {
+  padding: 2em;
+  border-radius: 10px;
+  border: #d7dfe9 1px solid;
+  margin-bottom: 1em;
+}
+label {
+  color: #7e858e;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+input {
+  color: #7e858e;
+  padding: 0.5em;
+  border: #7e858e 1px solid;
+  border-radius: 4px;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+  height: 35px;
+}
+@media screen and (min-width: 761px) {
+  .transactions-section {
+    display: flex;
+  }
+  .add-transaction-section {
+    flex-grow: 1;
+    margin-right: 2em;
+  }
+}
+select {
+  color: #7e858e;
+  padding: 0.5em;
+  border: #7e858e 1px solid;
+  border-radius: 4px;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+  background-color: transparent;
+  height: 35px;
+}
+button[type='submit'] {
+  width: 67px;
+  height: 32px;
+  background-color: #0b69ff;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.history-section {
+  flex-grow: 4;
+  padding: 2em;
+  border-radius: 10px;
+  border: #d7dfe9 1px solid;
+}
+.history-section-heading {
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+}
+.history-table {
+  border: #7e858e 1px solid;
+  padding: 0.6em;
+}
+.history-table-header {
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+  color: #334155;
+}
+.history-table-header p:nth-of-type(3) {
+  margin-right: 4em;
+  flex-grow: 1;
+}
+.history-table-header p:nth-of-type(1) {
+  flex-grow: 1;
+}
+.history-table-header p:nth-of-type(2) {
+  flex-grow: 1;
+}
+.transaction-column {
+  display: flex;
+  flex-direction: column;
+}

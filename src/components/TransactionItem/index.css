@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.transaction-item-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+  list-style-type: none;
+  padding: 0;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+img[alt='delete'] {
+  width: 25px;
+}
+@media screen and (max-width: 761px) {
+  .transaction-item-row {
+    width: 70%;
+  }
+  .title {
+    margin-right: 5em;
+  }
+  .amount {
+    flex-grow: 1;
+    margin-right: 6em;
+    font-size: 1em;
+    width: 60px;
+  }
+  .delete-button {
+    margin-left: 6em;
+  }
+}
+.amount {
+  flex-grow: 1;
+}
+.title {
+  flex-grow: 1;
+}
+.type {
+  flex-grow: 1;
+}

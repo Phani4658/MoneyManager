@@ -1,0 +1,58 @@
+/* Write your CSS here */
+ul {
+  margin: 0;
+  padding: 0;
+}
+.details-card {
+  list-style-type: none;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2em 1em;
+  margin-right: 1em;
+  display: flex;
+  margin-bottom: 1em;
+}
+.amount-details-card-img {
+  width: 20%;
+  height: 50%;
+  margin: auto 0;
+  margin-right: 0.6em;
+}
+@media screen and (min-width: 762px) {
+  .details-card {
+    width: 30%;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.details-card:nth-of-type(1) {
+  background-color: #ecfccb;
+  border: #84cc16 1px solid;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.amount-card-heading {
+  font-size: 1em;
+  color: #7e858e;
+  margin-bottom: 0.5em;
+}
+.amount-card-amount {
+  font-size: 1.7em;
+  color: #475569;
+}
+.details-card div {
+  margin: auto 0;
+}
+.details-card:nth-of-type(2) {
+  background-color: #cffafe;
+  border: #06b6d4 1px solid;
+}
+.details-card:nth-of-type(3) {
+  background-color: #ede9fe;
+  border: #7c3aed 1px solid;
+}
